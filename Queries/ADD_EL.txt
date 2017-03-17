@@ -1,0 +1,18 @@
+create table ADD_EL(Location varchar2(20) not null,
+					PoliceStationName varchar2(15) not null,
+					PContactNo number(15) not null,
+					FirebrigadeName varchar2(15) not null,
+					FContactNo number(15) not null,
+					HospitalName varchar2(15) not null,
+					HContactNo number(15) not null,
+					RestaurantName varchar2(15) not null,
+					RContactNo number(15) not null,
+					MultiplexName varchar2(15) not null,
+					MContactNo number(15) not null,
+					SpaCenterName varchar2(15) not null,
+					SContactNo number(15) not null);
+		
+							
+						
+						
+						

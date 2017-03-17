@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ADD PACKAGE</title>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="service1.jsp" class="page-scroll">Home</a></li>
+		  </ul>
+        </div>
+      </div>
+    </nav>
+
+</head>
+
+<body>
+<body background="img/Gallery/02.jpg">
+<form name="form1" action="ADD_PACK.jsp" method="post">
+<center>
+<h3>Fill-Up</h3>
+</center>
+<table align="center">
+	<tr>
+    	<td>
+        	<br/>PackageId:
+        </td>
+        <td>
+        	<br/><input type="text" name="PackageId" placeholder="Enter PackageId" required>
+        </td>
+    </tr>
+	<tr>
+	<td>
+        	<br/>Locations:
+        </td>
+        <td>
+        	<br/><input type="text" name="Locations" placeholder="Enter Locations" required>
+        </td>
+    </tr>
+
+    <tr>
+    	<td>
+        	<br/>Duration:
+        </td>
+        <td>
+        	<br/><input type="text" name="Duration" placeholder="Duration" required>
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<br/>Price:
+        </td>
+        <td>
+  			<br/><input type="number" name="Price" placeholder="Price" required>      
+        </td>
+    </tr>
+	  <tr>
+    	<td>
+        	<br/>ValidTill:
+        </td>
+        <td>
+        	<br/><input type="text" name="Valid" placeholder="Valid" required>
+        </td>
+    </tr>
+	
+    
+</table><br/>
+	<center>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"  name="ADD"  value="Add">&nbsp;&nbsp;&nbsp;<input type="reset" name="cancel" value="CANCEL">
+	</center>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+<head>
+<style type="text/css">
+#green{
+	background:Seagreen;
+	color:white;
+	float:left;
+	font:normal 17px tahoma;
+	line-height:16px;
+	height:24px;
+	padding-left:11px;
+	text-decoration:none;
+	width:80px;
+	border-radius:65px;
+	}
+
+	#red{
+	background:red;
+	color:white;
+	float:left;
+	font:normal 17px tahoma;
+	line-height:16px;
+	height:24px;
+	padding-left:11px;
+	text-decoration:none;
+	width:80px;
+	border-radius:65px;
+	}
+
+	</style>
+</head>
+<body background="../img/Gallery/13.jpg">
+<form name="register1" action="REGISTER1.jsp" method="post">
+<div style="width:auto;height:80px;">
+<a href="../index.html" style="color:white">OTRS</a>
+<font face="times new roman" size="20" color="gold">
+<marquee behavior="alternate"   scrollamount="7" direction="left" onMouseOver="stop()" onMouseOut="start()">
+Please Register Your Details</marquee>
+</font>
+</div>
+<br/><br/><br/><br/><br/><br/><br/>
+<table align="left" border="3" bordercolor="gold" bgcolor="silver" cellspacing="3" cellpadding="3">
+<tr>
+	<td><strong>Name:</strong></td>
+    <td><input type="text" size="20" name="Name" placeholder="Enter Name" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td><strong>Email:</strong></td>
+    <td><input type="text" size="20" name="Email" placeholder="Someone@gmail.com" required></td>
+</tr>
+<tr>
+	<td><strong>ContactNo:</strong></td>
+    <td><input type="text" size="20" name="ContactNo" placeholder="1234567890" required></td>
+	<td><strong>Address:</strong></td>
+    <td><textarea rows="2" cols="17" name="Address" placeholder="Enter Address" required></textarea></td>
+
+</tr>
+<tr>
+	<td><strong>AdminId:</strong></td>
+    <td><input type="text" size="20" name="AdminId" placeholder="Enter AdminId" required></td>
+	<td><strong>Password:</strong></td>
+    <td><input type="password" size="20" name="Password" placeholder="Enter Password" required></td>
+</tr>
+<tr>
+	<td colspan="2"><input id="green" type="submit" value="Submit" name="submit">
+	<input id="red" type="reset" value="Cancel" name="cancel"></td>
+</tr>
+</table>
+</font>
+</form>
+</body>
+</html>

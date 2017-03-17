@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+	<context-param>
+		<param-name>driver</param-name>
+		<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:oracle:thin:@localhost:1521:ORCL</param-value>
+	</context-param>
+	<context-param>
+		<param-name>userid</param-name>
+		<param-value>scott</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>tiger</param-value>
+	</context-param>
+	
+	<servlet>
+		<servlet-name>onServletContext</servlet-name>
+		<servlet-class>com.onServletContext</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>onServletContext</servlet-name>
+		<url-pattern>/onContext</url-pattern>	
+	</servlet-mapping>
+
+
+</web-app>

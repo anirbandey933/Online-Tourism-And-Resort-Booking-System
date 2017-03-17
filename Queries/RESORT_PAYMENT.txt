@@ -1,0 +1,4 @@
+create table RESORT_PAYMENT(Amount number(20) not null,
+CardHolderName varchar2(15) not null,
+CardNo varchar2(20) not null,
+Bank varchar2(20) not null);

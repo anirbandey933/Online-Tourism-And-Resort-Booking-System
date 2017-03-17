@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>REGISTER</title>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <a href="index.html" style="color:white">OTRS</a>
+		  </ul>
+        </div>
+      </div>
+    </nav>
+
+</head>
+
+<body background="img/Gallery/11.jpg">
+<form name="form1" action="register.jsp" method="post">
+<center>
+<h2>User Registration Form</h2>
+</center>
+<table align="center">
+	<tr>
+    	<td>
+        	<br/><strong>Enter Name:</strong>
+        </td>
+        <td>
+        	<br/><input type="text" name="Name" placeholder="Enter Name" required>
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<br/><strong>Enter Email:</strong>
+        </td>
+        <td>
+        	<br/><input type="email" name="Email" placeholder="someone@gmail.com" required>
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<br/><strong>PhoneNo:</strong>
+        </td>
+        <td>
+  			<br/><input type="number" name="PhoneNo" placeholder="PhoneNo" required>      
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<br/><strong>Enter UserId:</strong>
+        </td>
+        <td>
+            <br/><input type="userid"  name="UserId" placeholder="Enter UserId" required>
+        </td>
+    </tr>
+    <tr>
+    	<td>
+        	<br/><strong>Password:</strong>
+        </td>
+        <td>
+           <br/><input type="password" name="Password" placeholder="password" required>
+        </td>
+    </tr>
+    <tr>
+    	<td>
+    	    <br/><strong>Enter Message</strong>
+        </td>
+        <td>
+        	<br/><textarea name="Message"  rows="5" cols="21" required></textarea>
+        </td>
+    </tr>
+</table><br/>
+	<center>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"  name="Submit"  value="Submit">&nbsp;&nbsp;&nbsp;<input type="reset" name="cancel" value="Cancel">
+	</center>
+</form>
+
+</body>
+</html>

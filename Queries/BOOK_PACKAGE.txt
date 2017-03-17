@@ -1,0 +1,15 @@
+create table BOOK_PACKAGE(PACKAGEID varchar2(10) not null,
+LOCATION VARCHAR2(20) NOT NULL,
+DURATION VARCHAR2(15) NOT NULL,
+PRICE number(15) not null,
+VALID VARCHAR2(10) not null,
+UNAME varchar2(20) not null,
+PHONENO number(10) not null,
+EMAIL VARCHAR2(50) NOT NULL,
+Address varchar2(60) NOT NULL,
+MEMBER NUMBER(15) NOT NULL
+);
+
+
+
+ 

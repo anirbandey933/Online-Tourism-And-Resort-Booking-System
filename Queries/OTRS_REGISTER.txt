@@ -1,0 +1,6 @@
+create table OTRS_REGISTER(NAME varchar2(10) not null,
+EMAIL varchar2(15) not null,
+PHONENO number(10) not null,
+USERID varchar2(10) not null,
+PASSWORD varchar2(10) not null,
+MESSAGE varchar2(50) not null);

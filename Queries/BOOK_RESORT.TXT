@@ -1,0 +1,20 @@
+create table BOOK_RESORT(RESORTID varchar2(10) not null,
+RESORTNAME varchar2(15) not null,
+LOCATION VARCHAR2(20) NOT NULL,
+RESORTCLASS VARCHAR2(15) NOT NULL,
+RENT number(15) not null,
+CONTACTNO number(10) not null,
+UNAME varchar2(20) not null,
+PHONENO number(10) not null,
+EMAIL VARCHAR2(50) NOT NULL,
+Address varchar2(60) NOT NULL,
+DATEFROM varchar2(20) not null,
+DATETO varchar2(20) NOT NULL,
+TODA NUMBER(10) NOT NULL,
+ROOM NUMBER(15) NOT NULL,
+MEMBER NUMBER(15) NOT NULL
+);
+
+
+
+ 

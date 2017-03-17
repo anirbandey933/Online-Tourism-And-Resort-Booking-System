@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<style type="text/css">
+#oval{
+	background:grey;
+	color:white;
+	float:left;
+	font:normal 13px tahoma;
+	line-height:16px;
+	height:24px;
+	padding-left:11px;
+	text-decoration:none;
+	width:60px;
+	border-radius:60px;
+	}
+</style>
+
+<script type="text/javascript">
+	var c=45;
+	function nextPic()
+	{
+		c++;
+		if(c<55)
+		{
+			document.mypic.src="img/Gallery/"+c+".jpg";		
+		}	
+	}
+	function prevPic()
+	{
+		c--;
+		if(c>45)
+		{
+			document.mypic.src="img/Gallery/"+c+".jpg";		
+		}	
+	}	
+</script>
+
+</head>
+
+<body>
+	<div style="width:auto; height:40; background:#fff;">
+	<a href="index.html"><strong>HOME</strong></a>
+	</div>
+	<div style="width:auto; height:400; background:aliceblue;">
+<center>
+<h1>Resorts In Your Destination</h1>
+</center>
+<table align="center" width="50%">
+	<tr>
+		<td width="15%"><input id="oval" type="button" value="Prev" onClick="prevPic();"></td>
+		<td width="70%"><img src="img/Gallery/45.jpg" width="550" height="300" name="mypic"></td> 
+		<td width="15%"><input id="oval" type="button" value="Next" onClick="nextPic();"></td>
+	</tr>
+</table>
+</div>
+<div style="width:auto; height:60; background:#fff;">
+<br/><br/><br/><br/><br/><br/>
+<p>ALL RIGHTS RESERVED. COPYRIGHT © 2016. Designed by <a href="design.html">BPPIMT STUDENTS</a> </p>
+</div>
+</body>
+</html>

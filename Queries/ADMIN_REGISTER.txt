@@ -1,0 +1,6 @@
+create table ADMIN_REGISTER(NAME varchar2(20) not null,
+EMAIL varchar2(40) not null,
+ContactNo number(15) not null,
+Address varchar2(60) not null,
+AdminId varchar2(10) not null,
+PASSWORD varchar2(15) not null);
